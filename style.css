@@ -1,0 +1,106 @@
+body{
+	text-align: center;
+	animation: anim 1s infinite;
+	font-family: comic-sans;
+	margin:0;
+	padding:0;
+}
+h1{
+	font-size: 70px;
+}
+@keyframes anim{
+	0%{ background: #ffffaa;}
+	50%{ background: #ffffff;}
+	100%{ background: #ffffaa;}
+	}
+@keyframes huj{
+	0%{ background: blue;}
+	20%{ background: red;}
+	40%{ background: green;}
+	60%{ background: yellow;}
+	80%{ background: white;}
+	100%{ background: pink;}
+	}
+.button1{
+	position: absolute; 
+	top: 700px; 
+	left: 20%;
+	background: #aaaaff;
+	color: #ffffff;
+	font-size: 30px;
+	border: none;
+	padding: 20px;
+}
+.button2{
+	position: absolute; 
+	top: 700px; 
+	right: 20%;	
+	background: #aaaaff;
+	color: #ffffff;
+	font-size: 30px;
+	border: none;
+	padding: 20px;
+
+}
+.penis{
+	position: relative;
+	top:0;
+	left:0;
+	height: 100%;
+	width: 100%;
+}
+/*
+░░░░░░░░░░░░░▄▄▀▀▀▀▀▀▄▄
+░░░░░░░░░░▄▄▀▄▄▄█████▄▄▀▄
+░░░░░░░░▄█▀▒▀▀▀█████████▄█▄
+░░░░░░▄██▒▒▒▒▒▒▒▒▀▒▀▒▀▄▒▀▒▀▄
+░░░░▄██▀▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▄
+░░░░██▀▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█▌
+░░░▐██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▐█
+░▄▄███▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒█
+▐▒▄▀██▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▐▌
+▌▒▒▌▒▀▒▒▒▒▒▒▄▀▀▄▄▒▒▒▒▒▒▒▒▒▒▒▒█▌
+▐▒▀▒▌▒▒▒▒▒▒▒▄▄▄▄▒▒▒▒▒▒▒▀▀▀▀▄▒▐
+░█▒▒▌▒▒▒▒▒▒▒▒▀▀▒▀▒▒▐▒▄▀██▀▒▒▒▌
+░░█▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▐▒▒▒▒▒▒▒▒█
+░░░▀▌▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▌▒▒▒▒▒▒▄▀
+░░░▐▒▒▒▒▒▒▒▒▒▄▀▐▒▒▒▒▒▐▒▒▒▒▄▀
+░░▄▌▒▒▒▒▒▒▒▄▀▒▒▒▀▄▄▒▒▒▌▒▒▒▐▀▀▀▄▄▄
+▄▀░▀▄▒▒▒▒▒▒▒▒▀▀▄▄▄▒▄▄▀▌▒▒▒▌░░░░░░
+▐▌░░░▀▄▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▒▄▀░░░░░░░
+░█░░░░░▀▄▄▒▒▒▒▒▒▒▒▒▒▒▒▄▀░█░░░░░░░
+░░█░░░░░░░▀▄▄▄▒▒▒▒▒▒▄▀░░░░█░░░░░░
+░░░█░░░░░░░░░▌▀▀▀▀▀▀▐░░░░░▐▌░░░░░*/
+.dupa{
+	position:absolute; 
+	top:400px; 
+	left: 40%;
+}
+.kremuwa{
+	width: 60px;
+	height: 50px;
+	position: absolute;
+	left: 40px;
+	top: 20px;
+}
+.licznik{
+	font-size: 30px;
+	position: absolute;
+	top: 28px;
+	left: 110px;
+	visibility: hidden;
+}
+.cel{
+	visibility: hidden;
+	height: 100px;
+	width: 100px;
+	position: absolute;
+}
+.barka{
+	visibility: hidden;
+	position: absolute;
+	top: 10%;
+	left: 10%;
+	height: 80%;
+	width: 80%;
+}
